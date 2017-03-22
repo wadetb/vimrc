@@ -1,3 +1,7 @@
 This is my VIM config.
 
 Clone as $HOME\vimfiles and remove any preinstalled .vimrc.
+
+sl $HOME
+rm .vimrc
+git clone --recursive https://github.com/wadetb/vimrc vimfiles
