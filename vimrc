@@ -1,6 +1,9 @@
 set nocompatible
 execute pathogen#infect()
 
+set mouse=a
+set mousemodel=extend
+
 syntax enable
 filetype plugin indent on
 
