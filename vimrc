@@ -15,6 +15,7 @@ if has("win32")
 
 else
     set t_Co=256
+    let g:airline_powerline_fonts = 1
     let g:solarized_termcolors=256
     colorscheme solarized
 endif
