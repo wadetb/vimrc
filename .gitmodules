@@ -16,3 +16,15 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-argumentative"]
+	path = bundle/vim-argumentative
+	url = https://github.com/PeterRincker/vim-argumentative
+[submodule "bundle/vim-workspace"]
+	path = bundle/vim-workspace
+	url = https://github.com/thaerkh/vim-workspace
+[submodule "bundle/vim-unimpaired"]
+	path = bundle/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "bundle/jedi-vim"]
+	path = bundle/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim

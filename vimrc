@@ -21,4 +21,4 @@ else
 endif
 
 noremap <A-S-F> :Autoformat<CR>
-
+nnoremap <leader>s :ToggleWorkspace<CR>
