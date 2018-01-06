@@ -11,14 +11,9 @@ set ts=4 sw=4 et
 set number
 
 set background=dark
-if has("win32")
-
-else
-    set t_Co=256
-    let g:airline_powerline_fonts = 1
-    let g:solarized_termcolors=256
-    colorscheme solarized
-endif
+let g:airline_powerline_fonts = 1
+let g:solarized_termtrans = 1
+colorscheme solarized
 
 noremap <A-S-F> :Autoformat<CR>
 nnoremap <leader>s :ToggleWorkspace<CR>
